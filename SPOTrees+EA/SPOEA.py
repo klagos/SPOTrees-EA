@@ -95,7 +95,7 @@ dim = dimensions
 if n_train == 10000:
   data = pickle.load(open('non_linear_bigdata10000_dim4.p','rb'))
 else:
-  data = pickle.load(open('/home/felipe/Desktop/SPO_SINT_simple/Train/non_linear_data_dim' + str(dim) + '.p','rb'))
+  data = pickle.load(open('non_linear_data_dim' + str(dim) + '.p','rb'))
 n_test = 1000
 
 # dimension, seed, hcp1, hcp2, inqV, deqV

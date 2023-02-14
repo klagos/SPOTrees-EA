@@ -16,7 +16,7 @@ from math import sqrt
 import glob
 
 #################### Importing EA writen in C ###################
-libfile = glob.glob('/home/felipe/Desktop/SPOTree-EA-2/C_code/ea.so')[0]
+libfile = glob.glob('../C_code/ea.so')[0]
 mylib = CDLL(libfile)
 
 # C-type corresponding to numpy array
