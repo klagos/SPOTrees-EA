@@ -2,7 +2,7 @@ from random import randrange, seed
 
 seed(2022)
 
-total = 20
+total = 10
 a = open("seeds.txt", "w")
 for i in range(total):
 	seedNumber = randrange(100000)
