@@ -21,11 +21,11 @@ Tuned parameters:
 * prob_Mirror: 0.2996
 * increase_Repair: 2.6391
 * decrease_Mirror: 0.2171
-* perc: --
+* perc: 0.35
 
 To make an experiment the dataset must be in the same folder and the C++ code for the evolutionary algorithm has to be compiled (both paths can be modified). Then run on the command line:
 
-`python SPOEA.py 200 0 2-10 0 10 3 20 SPO 53162 5 0.6214 0.2996 2.6391 0.2171 --`
+`python SPOEA.py 200 0 2-10 0 10 3 20 SPO 53162 5 0.6214 0.2996 2.6391 0.2171 0.35`
 
 
 
